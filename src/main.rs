@@ -69,7 +69,7 @@ fn main() {
     let mut saved = false;
     while window.is_open() && !window.is_key_down(Key::Escape) {
         fb.clear();
-        fb.set_current_color(0xFFFF00); // pueden cambiar los colores
+        fb.set_current_color(0xFF69B4); // pueden cambiar los colores
         render(&mut fb, &obj, &verts);
 
         if !saved {
